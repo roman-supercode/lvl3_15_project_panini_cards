@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt lev3_15: Panini Karten</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+
+            <form action="#" id="grid-form">
+                <fieldset>
+                    <legend>Marvel's Guardians of the Galaxy Characters</legend>
+                    <label for="alias">Alias</label>
+                    <input type="text" id="alias" list="aliases" placeholder="Tree" required>
+                    <datalist id="aliases">
+                        <option value="Tree"></option>
+                        <option value="Rocket"></option>
+                        <option value="Star-Lord"></option>
+                        <option value="The Destroyer"></option>
+                        <option value="Muscle-head"></option>
+                        <option value="Mom-Lord"></option>
+                        <option value="Pete"></option>
+                        <option value="Rocky"></option>
+                        <option value="Hell-beast"></option>
+                        <option value="Grooty"></option>
+                        <option value="Deadliest Woman in the Galaxy"></option>
+                    </datalist>
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" list="names" placeholder="Groot" required>
+                    <datalist id="names">
+                        <option value="Groot"></option>
+                        <option value="Peter Quill"></option>
+                        <option value="Subject 89P13"></option>
+                        <option value="Drax"></option>
+                        <option value="Gamora Zen-Whoberi"></option>
+                    </datalist>
+
+                    <!-- <label for="species">Species</label>
+                    <input type="text" id="species" list="specieses" placeholder="Flora Colossus" required>
+                    <datalist id="specieses">
+                        <option value="Flora Colossus"></option>
+                        <option value="Human/Spartoi hybrid"></option>
+                        <option value="Unknown"></option>
+                        <option value="Katathian"></option>
+                        <option value="Zen-Whoberi"></option>
+                    </datalist> -->
+
+                    <label for="origin">Origin</label>
+                    <input type="text" id="origin" list="origins" placeholder="Planet X" required>
+                    <datalist id="origins">
+                        <option value="Planet X"></option>
+                        <option value="Earth"></option>
+                        <option value="Katath"></option>
+                        <option value="Halfworld"></option>
+                        <option value="Zen-Whoberi"></option>
+                    </datalist>
+
+                    <!-- <label for="gender">Gender</label>
+                    <select name="gender" id="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select> -->
+
+                    <label for="occupation">Occupation</label>
+                    <select id="occupation" required>
+                        <option value="Pirate">Pirate</option>
+                        <option value="Hero-for-hire">Hero-for-hire</option>
+                        <option value="Bounty hunter">Bounty hunter</option>
+                        <option value="Farmer">Farmer</option>
+                        <option value="Soldier">Soldier</option>
+                        <option value="Farmer">Farmer</option>
+                        <option value="Assassin">Assassin</option>
+                    </select>
+
+                    <label for="card">Character Card</label>
+                    <select id="card" required>
+                        <option value="Groot">🌳 Groot</option>
+                        <option value="Peter Quill">🦸‍♂️ Peter Quill</option>
+                        <option value="Rocket Raccoon">🦝 Rocket Raccoon</option>
+                        <option value="Drax">🧌 Drax</option>
+                        <option value="Gamora">🥷 Gamora</option>
+                    </select>
+
+                    <button type="button" id="button" class="gradient-border">Create Collection Card</button>
+                </fieldset>
+            </form>
+
+            <figure id="img3"></figure>
+            <figure id="img2"></figure>
+            <figure id="img1"></figure>
+            <figure id="img4"></figure>
+            <figure id="img5"></figure>
+
+        </div>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
